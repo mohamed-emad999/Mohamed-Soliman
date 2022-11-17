@@ -1,0 +1,108 @@
+body{
+	min-height: 100vh;
+	background-color: darkcyan;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+
+.container{
+	height: 400px;
+	width: 400px;
+	position: absolute;
+	margin: auto;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.logo{
+	background-color: #ffff00;
+	height: 160px;
+	width: 300px;
+	position: absolute;
+	margin: auto;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	border-radius: 50%;
+	border: 10px solid black;
+	overflow: hidden;	
+}
+
+.bat{
+	background-color: #000000;
+	height: 140px;
+	width: 280px;
+	position: absolute;
+	margin: auto;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	border-radius: 50%;
+}
+
+.ear{
+	background-color: #ffff00;
+	height: 15px;
+	width: 15px;
+	position: absolute;
+	margin: auto;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 125px;
+	transform: perspective(20px) rotateX(-30deg);	
+}
+
+.wing{
+	background-color: #ffff00;
+	height: 50px;
+	width: 100px;
+	position: absolute;
+	margin: auto;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	border-radius: 60% 40% 40% 60% / 50% 50% 50% 50%;	
+}
+
+.a{
+	top: 150px;
+	right: 45px;
+	transform: rotate(80deg);
+}
+
+.b{
+	top: 150px;
+	left: 45px;
+	transform: rotate(100deg);
+}
+
+.c{
+	top: 130px;
+	right: 90px;
+	transform: rotate(40deg);
+}
+
+.d{
+	top: 130px;
+	left: 90px;
+	transform: rotate(140deg);
+}
+
+.e{
+	bottom: 120px;
+	right: 75px;
+	transform: rotate(110deg) scaleX(0.8);
+}
+
+.f{
+	bottom: 120px;
+	left: 75px;
+	transform: rotate(70deg) scaleX(0.8);
+}
